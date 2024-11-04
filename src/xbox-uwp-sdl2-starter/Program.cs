@@ -45,7 +45,7 @@ namespace xbox_uwp_sdl2_starter
                 SDL.SDL_WINDOWPOS_CENTERED,
                 displayMode.w,
                 displayMode.h,
-                SDL.SDL_WindowFlags.SDL_WINDOW_FULLSCREEN_DESKTOP | SDL.SDL_WindowFlags.SDL_WINDOW_OPENGL
+                /*SDL.SDL_WindowFlags.SDL_WINDOW_FULLSCREEN_DESKTOP | */ SDL.SDL_WindowFlags.SDL_WINDOW_OPENGL
             );
 
             if (window == IntPtr.Zero)

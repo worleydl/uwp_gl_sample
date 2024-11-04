@@ -164,6 +164,12 @@
   <ItemGroup>
     <None Include="xbox-uwp-sdl2-starter_TemporaryKey.pfx" />
   </ItemGroup>
+  <!-- Redist provided by ms / required by mesa gallium -->
+  <ItemGroup>
+    <Content Include="C:\Program Files (x86)\Windows Kits\10\Redist\D3D\x64\dxil.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
