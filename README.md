@@ -1,6 +1,6 @@
 ## UWP SDL GL Sample
 
-This is a basic sample to showcase OpenGL working on UWP via Mesa3D.  See README.md for more info on dependencies
+This is a basic sample to showcase OpenGL working on UWP via Mesa3D.  See deps/README.md for more info on dependencies
 
 ## Running
 Open the solution and build the project.  The build should run locally and on an Xbox series device.
