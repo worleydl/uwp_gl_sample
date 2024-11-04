@@ -1,3 +1,5 @@
+# __NOTE:__
+This branch is a fork of https://github.com/Justin-Credible/xbox-uwp-sdl2-starter to experiment with OpenGL capabilities in C#.  All credit for the original C# implementation/research goes to upstream.
 
 # Xbox UWP SDL2 Starter Project
 
