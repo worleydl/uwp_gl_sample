@@ -24,9 +24,11 @@ namespace xbox_uwp_sdl2_starter
                 return;
 
             // Clear the screen.
-            SDL.SDL_SetRenderDrawColor(sdlRenderer, 0, 0, 0, 0);
+            SDL.SDL_SetRenderDrawColor(sdlRenderer, 0, 255, 0, 255);
             SDL.SDL_RenderClear(sdlRenderer);
 
+            // This isn't currently working, SDL-CS wrapper issues?
+            /*
             // Render the giant Xbox logo ASCII art as the background.
             for (var i = 0; i < AsciiArt.XBOX_LOGO.Length; i++)
                 FontRenderer.RenderString(sdlRenderer, AsciiArt.XBOX_LOGO[i], 0, i * 8, XBOX_GREEN, Color.White);
@@ -37,6 +39,8 @@ namespace xbox_uwp_sdl2_starter
             FontRenderer.RenderString(sdlRenderer, "                                     ", 40 * 8, 63 * 8, Color.White, Color.Black);
             FontRenderer.RenderString(sdlRenderer, $"    {LIME_GREEN}X B O X  {WHITE}/  {WINDOWS_BLUE}U W P  {WHITE}/  {SALMON_RED}S D L 2    ", 40 * 8, 64 * 8, Color.White, Color.Black);
             FontRenderer.RenderString(sdlRenderer, "                                     ", 40 * 8, 65 * 8, Color.White, Color.Black);
+            */
+
 
             SDL.SDL_RenderPresent(sdlRenderer);
 
