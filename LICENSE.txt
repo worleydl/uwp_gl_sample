@@ -1,0 +1,1 @@
+See the zlib license under lic/SDL-LICENSE.txt
